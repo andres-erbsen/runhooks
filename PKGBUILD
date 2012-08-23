@@ -14,6 +14,6 @@ build() {
   cd $srcdir
   install -d $pkgdir/usr/bin/
   install runhooks.sh $pkgdir/usr/bin/
-  install -d $pkgdir/etc/pm/sleep.d/
-  install 68userhooks $pkgdir/etc/pm/sleep.d/
+  install -d $pkgdir/usr/lib/pm-utils/sleep.d/
+  install 68userhooks $pkgdir/usr/lib/pm-utils/sleep.d/
 }
